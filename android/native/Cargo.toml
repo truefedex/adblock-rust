@@ -1,0 +1,12 @@
+[package]
+name = "adblock-rs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "adblock_rs"
+crate-type = ["dylib"]
+
+[dependencies]
+adblock = { path = "../../", features = ["css-validation", "content-blocking", "resource-assembler"] }
+jni = { version = "0.19.0", default-features = false }

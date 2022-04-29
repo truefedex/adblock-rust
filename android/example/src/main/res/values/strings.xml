@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Brave ad-block</string>
+    <string name="go">GO</string>
+    <string name="ads_blocked_fmt">Ads requests blocked: %d</string>
+</resources>
